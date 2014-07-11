@@ -1,0 +1,414 @@
+@font-face {
+    font-family: "OpenSans";
+    src: url("../fonts/OpenSans-Regular.ttf");
+}
+
+@font-face {
+    font-family: "OpenSans-Bold";
+    src: url("../fonts/OpenSans-Bold.ttf");
+}
+
+@font-face {
+    font-family: "OpenSans-Semibold";
+    src: url("../fonts/OpenSans-Semibold.ttf");
+}
+
+@font-face {
+    font-family: "OpenSans-Light";
+    src: url("../fonts/OpenSans-Light.ttf");
+}
+
+@font-face {
+    font-family: "Mensch";
+    src: url("../fonts/mensch.ttf");
+}
+
+@font-face {
+    font-family: "outside-in";
+    src: url("../fonts/outside-in/outside-in.eot#iefix") format("embedded-opentype"), /*IE8 fix */
+         url("../fonts/outside-in/outside-in.ttf"),
+         url("../fonts/outside-in/outside-in.eot");
+}
+
+@font-face {
+    font-family: "outside-in-IDRC-text";
+    src: url("../fonts/outside-in/outside-in-IDRC-text.eot#iefix") format("embedded-opentype"),
+        url("../fonts/outside-in/outside-in-IDRC-text.ttf"),
+        url("../fonts/outside-in/outside-in-IDRC-text.eot");
+}
+
+body {
+    font-size: 12px;
+    font-size: 1.2rem;
+}
+
+.outside-in-container {
+    font-family: "OpenSans";
+}
+
+.outside-in-container .outside-in-headerTitle h1:before {
+    position: absolute;
+    font-size: 7.0rem;
+    font-family: "outside-in";
+    content: "\e603";
+    color: #C0D660;
+    padding-left: 3.0rem;
+    margin-top: -9rem;
+}
+
+.outside-in-container .outside-in-Logo {
+    position: absolute;
+    font-size: 7.0rem;
+    font-family: "outside-in";
+    content: "\e603";
+    color: #C0D660;
+    padding-left: 3.0rem;
+    margin-top: -9rem;
+}
+
+
+.outside-in-container .outside-in-listRowStyle1:before, 
+.outside-in-container .outside-in-listRowStyle2:before {
+    background: #C0D660;
+    content: "";
+    height: 0.8rem;
+    position: absolute;
+    top: -1rem;
+    width: 2.5rem;
+}
+
+.outside-in-container .outside-in-iconColumn:before {
+    background: #FFF;
+    border-radius: 50%;
+    padding: 0.1rem;
+    text-align: center;
+    font-family: "outside-in";
+    font-size: 4.5rem;
+    color: #C0D660;
+}
+
+.outside-in-iconColumn1:before {
+    content: "\e606";
+}
+
+.outside-in-container .outside-in-iconColumn2:before {
+    content: "\e604";
+}
+
+.outside-in-container .outside-in-iconColumn3:before {
+    content: "\e600";
+}
+
+.outside-in-container .outside-in-idi-Link:before {
+    font-family: "outside-in-IDRC-text";
+    font-size: 3.4rem;
+    content: "\e600";
+    color: #FFF;
+}
+
+.outside-in-container .outside-in-Ontario-Government-Link:before {
+    font-family: "outside-in";
+    font-size: 3.2rem;
+    content: "\e602";
+    color: #FFF;
+}
+
+.outside-in-container .outside-in-footerLogo a:before {
+    font-family: "outside-in";
+    content: "\e603";
+    color: #C0D660;
+    padding-right: 0.5rem;
+}
+
+.fl-prefsEditor-buttons {
+    font-size: 0.8rem;
+    margin-left: 2rem;
+}
+
+.fl-prefsEditor-separatedPanel .fl-prefsEditor-showHide {
+    min-width: inherit;
+}
+
+.fl-prefsEditor-separatedPanel .fl-panelBar .fl-prefsEditor-buttons {
+    margin-right: 4%;
+}
+
+.outside-in-container .outside-in-TOC {
+    font-size: 1.0rem;
+    margin-left: 3.0rem;
+    background-color: #FFFFF;
+    padding-top: 1rem;
+    color: #000;
+}
+
+.outside-in-container .outside-in-TOC h1 {
+    font-family: "OpenSans-Semibold";
+    font-size: 2.0rem;
+}
+
+.outside-in-container .outside-in-TOC li {
+    list-style: upper-roman;
+}
+
+.outside-in-container .outside-in-TOC a {
+    color: #000;
+}
+
+.outside-in-container .outside-in-headerLinks a {
+    color: #FFF;
+}
+
+.outside-in-container .outside-in-headerTitle h1 {
+    font-size: 3.4rem;
+    text-decoration: none;
+    color: #FFF;
+    font-family: "Mensch";
+}
+
+.outside-in-container .outside-in-headerTagline {
+    color: #C0D660;
+    letter-spacing: 0.14rem;
+    font-family: "OpenSans";
+    font-size: 1.2rem;
+    padding-top: 0.8rem;
+}
+
+.outside-in-container .set {
+    font-family: "OpenSans-Semibold";
+}
+
+.outside-in-container .work {
+    font-family: "OpenSans-Bold";
+}
+
+.outside-in-container .outside-in-header {
+    background-color: #2c2c2c;
+    background-image: url("../images/header image.jpg"), none;
+    background-position: 0% 0%;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    text-align: center;
+}
+
+.outside-in-container .outside-in-headerLinks {
+    text-align: right;
+    padding:1 .5rem 23% 0 0;
+    word-spacing: 1.8rem;
+    font-family: "OpenSans-Semibold";
+    font-size: 0.9rem;
+}
+
+.outside-in-container .outside-in-headerTitle {
+    padding: 13% 0 7% 0;
+}
+
+.outside-in-container .outside-in-mainContent {
+    background-color: #F2f2f2;
+}
+
+.outside-in-container .outside-in-rowPadding {
+    padding-right: 20%;
+    padding-left: 20%;
+    max-width: none;
+}
+
+.outside-in-container .outside-in-aboutRow {
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+    color: #4c4c4c;
+}
+
+.outside-in-container .outside-in-aboutRow h2, 
+.outside-in-container .outside-in-partnersRow h2, 
+.outside-in-container .outside-in-footerRow h2 {
+    font-size:0.9rem;
+    letter-spacing: 0.04rem;
+    color: #4c4c4c;
+    font-weight: bold;
+}
+
+.outside-in-container .outside-in-footerRow h2 {
+    color:#FFF;
+}
+
+.outside-in-aboutRow p, .outside-in-partnersRow p {
+    font-size: 0.9rem;
+    font-family: "OpenSans-Light";
+    line-height: 175%;
+}
+    
+.outside-in-container .outside-in-listRow {
+    padding-top: 2.5rem;
+    padding-bottom:1 rem;
+    background-color: #FFF;
+}
+
+.outside-in-container .outside-in-listRowStyle1 {
+    font-size: 0.8rem;
+    font-family: "OpenSans";
+    color: #4c4c4c;
+    list-style: none;
+    position: relative;
+    padding: 0 0 1rem 0;
+    margin: 2rem 0 2rem 0;
+}
+
+.outside-in-container .outside-in-listRowStyle2 {
+    font-size: 0.8rem;
+    font-family: "OpenSans";
+    color: #4c4c4c;
+    list-style: none;
+    position: relative;
+}
+
+.outside-in-container .outside-in-iconRow {
+    padding-top: 6rem;
+    padding-bottom: 2rem;
+    color: #4c4c4c;
+    text-align: center;
+    font-family: "OpenSans-Light";
+}
+
+.outside-in-container .outside-in-iconRow p {
+    padding: 1.0rem 0 2rem 0;
+    font-size: 0.95rem;
+}
+
+.outside-in-container .outside-in-iconColumn3 p {
+    padding-bottom: 0.4rem;
+}
+
+.outside-in-container .outside-in-partnersRow {
+    padding-top: 1rem;
+    padding-bottom: 5rem;
+}
+
+.outside-in-container .outside-in-partnersRow li {
+    font-size: 0.9rem;
+    font-family: "OpenSans-Light";
+    margin: 0 0 0.5rem 0;
+}
+
+.outside-in-container .outside-in-partnersRow a {
+    font-size: 0.9rem;
+    font-family: "OpenSans-Semibold";
+    text-decoration: none;
+    border-bottom: 0.18rem solid #C0D660;
+    color: #4c4c4c;
+    margin: 0 0 0.5rem 0;
+}
+    
+.outside-in-container .outside-in-footerRow {
+    background-color: #444444;
+    background-size: 100% auto;
+    color: #FFFFFF;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    font-size: 0.9rem;
+    font-family: "OpenSans-Light";
+    line-height: 175%;
+}
+
+.outside-in-container .outside-in-footerColumn {
+    padding: 2.5rem 0 2rem 3.5rem;
+}
+
+.outside-in-container .outside-in-iconLink {
+    margin-right:0rem;
+}
+
+.outside-in-container .outside-in-idi-Link {
+    display: inline-block;
+    margin-bottom: 2rem;
+    padding-left: 0rem;
+    padding-bottom: 0.2rem;
+}
+
+.outside-in-container .outside-in-Ontario-Government-Link {
+    display: inline;
+    padding: 3rem 0.3rem 0.6rem 0.3rem;
+}
+
+
+/*.outside-in-container .outside-in-footer-logos {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.outside-in-container .outside-in-footer-logos li {
+    width: 50%;
+    list-style: none;
+}
+*/
+
+.outside-in-container .outside-in-footerLogo {
+    text-align: center;
+    font-family: "Mensch";
+    font-size: 2rem;
+    padding-top: 3rem;
+}
+
+.outside-in-container .outside-in-footerLogo a {
+    color: #C0D660;
+    padding: 0.45rem 0.1rem 0 0.1rem;
+}
+
+.outside-in-container .outside-in-emailLink {
+    color: #C0D660;
+    text-decoration: underline;
+    font-family: "OpenSans-Semibold";
+}
+
+.outside-in-container a:focus, .outside-in-container a:focus:before {
+    background: #f2e93b;
+    color: #4c4c4c;
+    outline: none;
+    border-bottom: none;
+}
+  
+.outside-in-container .outside-in-headerLinks a:hover, 
+.outside-in-container .outside-in-partnersRow a:hover, 
+.outside-in-container .outside-in-emailLink:hover, 
+.outside-in-container .outside-in-footerLogo a:hover:before, 
+.outside-in-container .outside-in-footerLogo a:hover {
+    color: #4c4c4c;
+    background-color: #C0D660;
+}
+
+.outside-in-container .outside-in-idi-Link:hover:before, 
+.outside-in-container .outside-in-Ontario-Government-Link:hover:before {
+    color: #C0D660;
+}
+
+@media only screen and (max-width: 75rem) {
+    .outside-in-container .outside-in-header {
+    background-size: 105rem auto;
+    }
+}
+
+@media only screen and (max-width: 40rem) {
+    .outside-in-container .outside-in-headerLinks {
+        padding: 4.5rem 3rem 0 0;
+    }
+}
+
+/*@media only screen and (max-width: 25rem) {
+    .outside-in-container .outside-in-headerLinks {
+        padding: 4.5rem 3.0rem 0 0;
+    }
+}*/
+
+@media only screen and (max-width: 75rem) {
+    .outside-in-container .outside-in-headerTitle {
+        padding-top: 10rem;
+    }
+}
+
+@media only screen and (max-width: 25rem) {
+    .outside-in-container .outside-in-rowPadding {
+        padding: 2rem 2.0rem 2rem 0;
+    }
+ }
+   

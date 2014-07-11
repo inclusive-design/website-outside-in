@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
+        <title>Outside In</title>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport">
+        <link rel="stylesheet" href="style/foundation.min.css" />
+           
+        <!-- Required CSS files -->
+        <link rel="stylesheet" type="text/css" href="lib/infusion/framework/fss/css/fss-layout.css" />
+        <link rel="stylesheet" type="text/css" href="lib/infusion/framework/fss/css/fss-text.css" />
+        <link rel="stylesheet" type="text/css" href="lib/infusion/framework/preferences/css/fss/fss-theme-bw-prefsEditor.css" />
+        <link rel="stylesheet" type="text/css" href="lib/infusion/framework/preferences/css/fss/fss-theme-wb-prefsEditor.css" />
+        <link rel="stylesheet" type="text/css" href="lib/infusion/framework/preferences/css/fss/fss-theme-by-prefsEditor.css" />
+        <link rel="stylesheet" type="text/css" href="lib/infusion/framework/preferences/css/fss/fss-theme-yb-prefsEditor.css" />
+        <link rel="stylesheet" type="text/css" href="lib/infusion/framework/preferences/css/fss/fss-theme-lgdg-prefsEditor.css" />
+        <link rel="stylesheet" type="text/css" href="lib/infusion/framework/preferences/css/fss/fss-theme-dglg-prefsEditor.css" />
+        <link rel="stylesheet" type="text/css" href="lib/infusion/framework/preferences/css/fss/fss-text-prefsEditor.css" />
+        <link rel="stylesheet" type="text/css" href="lib/infusion/lib/jquery/ui/css/fl-theme-by/by.css" />
+        <link rel="stylesheet" type="text/css" href="lib/infusion/lib/jquery/ui/css/fl-theme-yb/yb.css" />
+        <link rel="stylesheet" type="text/css" href="lib/infusion/lib/jquery/ui/css/fl-theme-bw/bw.css" />
+        <link rel="stylesheet" type="text/css" href="lib/infusion/lib/jquery/ui/css/fl-theme-wb/wb.css" />
+        <link rel="stylesheet" type="text/css" href="lib/infusion/lib/jquery/ui/css/fl-theme-lgdg/lgdg.css" />
+        <link rel="stylesheet" type="text/css" href="lib/infusion/lib/jquery/ui/css/fl-theme-dglg/dglg.css" />
+        
+        <link rel="stylesheet" type="text/css" href="lib/infusion/framework/preferences/css/PrefsEditor.css" />
+        <link rel="stylesheet" type="text/css" href="lib/infusion/framework/preferences/css/SeparatedPanelPrefsEditor.css" />
+        
+        <link rel="stylesheet" href="style/outsidein.css" />
+        
+        <!-- The Infusion Library -->
+        <script type="text/javascript" src="lib/infusion/infusion-custom.js"></script>
+
+    </head>
+    
+    <body>
+        <script type="text/javascript">
+    $(document).ready(function () {
+        fluid.uiOptions.prefsEditor(".flc-prefsEditor-separatedPanel", {
+            tocTemplate: "lib/infusion/components/tableOfContents/html/TableOfContents.html",
+            templatePrefix: "lib/infusion/framework/preferences/html/",
+            messagePrefix: "lib/infusion/framework/preferences/messages/"
+        });
+    })
+        </script>
+        
+        <div class="flc-prefsEditor-separatedPanel fl-prefsEditor-separatedPanel">
+            <!-- This is the div that will contain the Preference Editor component -->
+            <div class="flc-slidingPanel-panel flc-prefsEditor-iframe"></div>
+            <!-- This div is for the sliding panel that shows and hides the Preference Editor controls -->
+            <div class="fl-panelBar">
+                <span class="fl-prefsEditor-buttons">
+                    <button id="reset" class="flc-prefsEditor-reset fl-prefsEditor-reset"><span class="fl-icon-undo"></span> Reset</button>
+                    <button id="show-hide" class="flc-slidingPanel-toggleButton fl-prefsEditor-showHide"> Show/Hide</button>
+                </span>
+            </div>
+        </div>
+        
+        <div class="container outside-in-container">   
+          
+            <a name="home"></a>
+            <header class="outside-in-header">
+            
+                <div class="outside-in-headerLinks">
+                    <a href="#about" title="About">About</a>
+                    <a href="#partners" title="Partners">Partners</a>
+                    <a href="#contact" title="Contact">Contact</a>
+                </div>
+
+                <div class="outside-in-headerTitle">
+                        <h1>OUTSIDE·IN</h1>                             
+                        <p class="outside-in-headerTagline"> Ready.<span class="set">Set</span>.<span class="work">Work</span>.</p>
+                </div>
+                
+            </header>
+            
+            
+            <section class="outside-in-mainContent">
+            
+                <div class="flc-toc-tocContainer outside-in-TOC"> </div>
+    
+                <section class="row outside-in-aboutRow outside-in-rowPadding">
+                
+                    <div class="small-12 column">
+                        <a name="about"></a>
+                        <h2>ABOUT</h2>
+                    </div>
+                
+                    <div class="small-12 medium-6 column">
+                        <p>Outside-IN provides a diverse set of <strong> individualized youth training and mentorship </strong> programs informed by current demands. This means you can apply what you learn immediately, be paid for your work, receive recognition and feedback regarding your skills, and continue to gain skills at your own pace.</p>
+                    </div>
+                    
+                    <div class="small-12 medium-6 column">
+                        <p> Outside-IN will help you build your way towards financial independence. When you are ready and sure of your competencies you can participate in service entrepreneurship training. Outside-IN will help you set up a service enterprise.</p>
+                    </div>
+                                      
+                </section> <!-- end myAboutRow -->
+                
+
+                <section class="row outside-in-listRow outside-in-rowPadding">
+                
+                    <div class="small-12 medium-6 column">
+                    
+                        <ul class="inline-list">
+                        
+                             <li>
+                                 <p class="outside-in-listRowStyle1"> Are you facing barriers to employment? Are you interested in job training that you can apply the same day? </p>
+                             </li>
+                            
+                            <li>
+                                <p class="outside-in-listRowStyle2"> Is it difficult to find jobs that match your strengths and abilities? </p>
+                            </li>
+                            
+                        </ul>
+                        
+                    </div>
+                    
+                    <div class="small-12 medium-6 column">
+                    
+                        <ul class="inline-list">
+                        
+                            <li>
+                                <p class="outside-in-listRowStyle1"> Are there times when you cannot work because of a disability or because of your health? </p>
+                            </li>
+                            
+                            <li>
+                                <p class="outside-in-listRowStyle2"> Are you looking for meaningful work that meets a critical and growing demand? </p>
+                            </li>
+                            
+                        </ul>
+                        
+                    </div>
+                    
+                </section> <!-- end myListRow -->
+                
+                          
+                <section class="row outside-in-iconRow outside-in-rowPadding">
+                
+                    <div class="small-12 medium-4 column outside-in-iconColumn outside-in-iconColumn1">
+                        <p>Earn and build upon certification and skills that you can apply immediately</p>
+                    </div>
+                    
+                    <div class="small-12 medium-4 column outside-in-iconColumn outside-in-iconColumn2">
+                        <p>Learn valuable skills that address current accessibility gaps. <em> This is a growing, future-proof market.</em> </p>        
+                    </div>
+                    
+                    <div class="small-12 medium-4 column outside-in-iconColumn outside-in-iconColumn3">
+                        <p>Work toward your own service enterprise.</p>            
+                    </div>
+                    
+                </section> <!-- end myIconRow -->
+
+
+                <section class="row outside-in-partnersRow outside-in-rowPadding">      
+
+                    <div class="small-12 column">
+                        <a name="partners"></a>
+                        <h2>PARTNERS</h2>
+                    </div>
+                    
+                    <div class="small-12 medium-6 column">
+                        <p>Project Outside-IN will create a vibrant and responsively evolving, inclusive design ecosystem and learning community. Outside-IN will scale up from successful cycles of youth engagement in addressing real industry demands.</p>
+                        <p>Participants will be actively engaged in shaping the program through a strategic, multi-sector partnership led by the <a href="http://www.idrc.ocad.ca" title="Inclusive Design Research Centre" target="_blank">Inclusive Design Research Centre</a> at <a href="http://www.ocadu.ca" title="OCAD University" target="_blank">OCAD University</a>.</p>
+                    </div>
+
+                    <div class="small-12 medium-6 column">
+                    
+                        <p>Project Outside-IN partners will include:</p>
+                        
+                        <ul>
+                        
+                            <li> <a href="http://www.yes.on.ca/" title="Youth Employment Services" target="_blank"> Youth Employment Services </a> </li>
+                            <li> <a href="https://www.tigweb.org/" title="TakingIT Global" target="_blank"</a> TakingIT Global </a> </li>
+                            <li> <a href="http://socialinnovation.ca/" title="Centre for Social Innovation" target="_blank"> Centre for Social Innovation </a> </li>
+                            <li> <a href="http://www.riseassetdevelopment.com/" title="RISE Asset Development" target="_blank"> RISE Asset Development </a> </li>
+                            <li> <a href="https://www.mozilla.org/en-US/foundation/" title="Mozilla Foundation" target="_blank"> Mozilla Foundation </a> </li>
+                            <li> <a href="http://inclusivedesign.ca/" title="Inclusive Design Institute" target="_blank"> Inclusive Design Institute</a> researchers from Seneca, George Brown and Sheridan Colleges</li> 
+                            
+                        </ul>
+                        
+                        <p>The project will be further supported by partnerships with a large network of obligated organizations that require the skills and competencies being developed through the project, including:</p>
+                    
+                        <ul>
+                        
+                            <li> <a href="http://www.ontario.ca/ministry-government-services" title="Ministry of Government Services" target="_blank"> Ministry of Government Services </a> </li>
+                            <li> <a href="https://www.accessola.org/" title="Ontario Libray Association"> Ontario Library Association </a> </li>
+                            <li> <a href="http://www.bell.ca/" title="Bell" target="_blank"> Bell</a> </li>
+                            
+                        </ul>
+                    
+                    </div>
+
+                </section> <!-- end myPartnersRow -->
+            
+            
+                
+                <section class="row outside-in-footerRow outside-in-rowPadding">
+                
+                     <div class="small-12 column">
+                        <a name="contact"></a>
+                        <h2>CONTACT</h2>
+                    </div>
+                
+                    <div class="small-12 medium-6 column">
+                    
+                        <p>Project Outside-IN will initially recruit participants through youth and employment agencies in Toronto.</p>
+                        <p>To find out more about how you could be involved, to ask for more information, or to request project Outside-IN materials please contact <a class="outside-in-emailLink" href="mailto:idi@ocadu.ca?Subject=Project Outside-In" target="_top" title="send email to idi@ocadu.ca">idi@ocadu.ca</a></p>
+                                          
+                    </div>
+                  
+                    <div class="small-12 medium-6 column outside-in-footerColumn">
+                
+                         <div class="small-12 large-6 column outside-in-iconLink">
+                                                  
+                           <a class="outside-in-idi-Link" href="http://idrc.ocad.ca/" title="Inclusive Design Research Centre" target="_blank">
+                            </a>
+                                
+                        </div>
+                    
+                        <div class="small-12 large-6 column">
+                                                                   
+                             <a class="outside-in-Ontario-Government-Link" href="http://www.ontario.ca/ministry-government-services" title="Ministry of Government Services of Ontario" target="_blank"></a>
+                             
+                        </div>
+                    
+                    </div>
+                
+                    <div class= "small-12 column outside-in-footerLogo">
+                    
+                        <a href="#home" title="return to top of page">Outside·IN</a>
+                        
+                    </div>
+                
+                </section> <!-- end myFooterRow -->
+            
+            </section> <!-- end outside-in-main-content -->
+            
+        </div> <!-- end outside-in-container -->
+        
+    </body>
+    
+</html>
+
