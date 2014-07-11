@@ -46,11 +46,14 @@ body {
     font-family: "OpenSans";
 }
 
+.outside-in-container .outside-in-headerTitle .outside-in-headerTitle-icon {
+    color: #C0D660;
+}
+
 .outside-in-container .outside-in-headerTitle .outside-in-headerTitle-icon:before {
     font-size: 7.0rem;
     font-family: "outside-in";
     content: "\e603";
-    color: #C0D660;
 }
 
 .outside-in-container .outside-in-Logo {
@@ -96,24 +99,25 @@ body {
     content: "\e600";
 }
 
+.outside-in-container .outside-in-idi-Link,
+.outside-in-container .outside-in-Ontario-Government-Link {
+    color: #FFF;
+    font-size: 3rem;
+}
+
 .outside-in-container .outside-in-idi-Link:before {
     font-family: "outside-in-IDRC-text";
-    font-size: 3rem;
     content: "\e600";
-    color: #FFF;
 }
 
 .outside-in-container .outside-in-Ontario-Government-Link:before {
     font-family: "outside-in";
-    font-size: 3rem;
     content: "\e602";
-    color: #FFF;
 }
 
 .outside-in-container .outside-in-footerLogo a:before {
     font-family: "outside-in";
     content: "\e603";
-    color: #C0D660;
     padding-right: 0.5rem;
 }
 
@@ -365,7 +369,7 @@ body {
     outline: none;
     border-bottom: none;
 }
-  
+
 .outside-in-container .outside-in-headerLinks a:hover, 
 .outside-in-container .outside-in-partnersRow a:hover, 
 .outside-in-container .outside-in-emailLink:hover, 
@@ -375,8 +379,8 @@ body {
     background-color: #C0D660;
 }
 
-.outside-in-container .outside-in-idi-Link:hover:before, 
-.outside-in-container .outside-in-Ontario-Government-Link:hover:before {
+.outside-in-container .outside-in-idi-Link:hover,
+.outside-in-container .outside-in-Ontario-Government-Link:hover {
     color: #C0D660;
 }
 
@@ -409,4 +413,82 @@ body {
         padding: 2rem 2.0rem 2rem 0;
     }
  }
-   
+
+/* Contrast themes. */
+.fl-theme-bw .outside-in-container .outside-in-headerLinks a:hover, 
+.fl-theme-bw .outside-in-container .outside-in-partnersRow a:hover, 
+.fl-theme-bw .outside-in-container .outside-in-emailLink:hover, 
+.fl-theme-bw .outside-in-container .outside-in-footerLogo a:hover:before, 
+.fl-theme-bw .outside-in-container .outside-in-footerLogo a:hover,
+.fl-theme-bw .outside-in-container .outside-in-iconColumn:before {
+    background-color: #000 !important;
+    color: #fff !important;
+}
+
+.fl-theme-bw .outside-in-container .outside-in-listRowStyle1:before, 
+.fl-theme-bw .outside-in-container .outside-in-listRowStyle2:before {
+    background-color: #000;
+}
+
+
+.fl-theme-wb .outside-in-container .outside-in-headerLinks a:hover, 
+.fl-theme-wb .outside-in-container .outside-in-partnersRow a:hover, 
+.fl-theme-wb .outside-in-container .outside-in-emailLink:hover, 
+.fl-theme-wb .outside-in-container .outside-in-footerLogo a:hover:before, 
+.fl-theme-wb .outside-in-container .outside-in-footerLogo a:hover,
+.fl-theme-wb .outside-in-container .outside-in-iconColumn:before {
+    background-color: #fff !important;
+    color: #000 !important;
+}
+
+.fl-theme-wb .outside-in-container .outside-in-listRowStyle1:before, 
+.fl-theme-wb .outside-in-container .outside-in-listRowStyle2:before {
+    background-color: #fff;
+}
+
+
+.fl-theme-yb .outside-in-container .outside-in-headerLinks a:hover, 
+.fl-theme-yb .outside-in-container .outside-in-partnersRow a:hover, 
+.fl-theme-yb .outside-in-container .outside-in-emailLink:hover, 
+.fl-theme-yb .outside-in-container .outside-in-footerLogo a:hover:before, 
+.fl-theme-yb .outside-in-container .outside-in-footerLogo a:hover,
+.fl-theme-yb .outside-in-container .outside-in-iconColumn:before {
+    background-color: #ffff00 !important;
+    color: #000 !important;
+}
+
+.fl-theme-yb .outside-in-container .outside-in-listRowStyle1:before, 
+.fl-theme-yb .outside-in-container .outside-in-listRowStyle2:before {
+    background-color: #ffff00;
+}
+
+
+.fl-theme-by .outside-in-container .outside-in-headerLinks a:hover, 
+.fl-theme-by .outside-in-container .outside-in-partnersRow a:hover, 
+.fl-theme-by .outside-in-container .outside-in-emailLink:hover, 
+.fl-theme-by .outside-in-container .outside-in-footerLogo a:hover:before, 
+.fl-theme-by .outside-in-container .outside-in-footerLogo a:hover,
+.fl-theme-by .outside-in-container .outside-in-iconColumn:before {
+    background-color: #000 !important;
+    color: #ffff00 !important;
+}
+
+.fl-theme-by .outside-in-container .outside-in-listRowStyle1:before, 
+.fl-theme-by .outside-in-container .outside-in-listRowStyle2:before {
+    background-color: #000;
+}
+
+.fl-theme-lgdg .outside-in-container .outside-in-headerLinks a:hover, 
+.fl-theme-lgdg .outside-in-container .outside-in-partnersRow a:hover, 
+.fl-theme-lgdg .outside-in-container .outside-in-emailLink:hover, 
+.fl-theme-lgdg .outside-in-container .outside-in-footerLogo a:hover:before, 
+.fl-theme-lgdg .outside-in-container .outside-in-footerLogo a:hover,
+.fl-theme-lgdg .outside-in-container .outside-in-iconColumn:before {
+    background-color: #bdbdbb !important;
+    color: #555 !important;
+}
+
+.fl-theme-lgdg .outside-in-container .outside-in-listRowStyle1:before, 
+.fl-theme-lgdg .outside-in-container .outside-in-listRowStyle2:before {
+    background-color: #bdbdbb;
+}
