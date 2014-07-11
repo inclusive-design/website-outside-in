@@ -51,20 +51,7 @@ body {
     font-family: "outside-in";
     content: "\e603";
     color: #C0D660;
-    padding-left: 3.0rem;
-
 }
-/*
-.outside-in-container .outside-in-headerTitle h1:before {
-    position: absolute;
-    font-size: 7.0rem;
-    font-family: "outside-in";
-    content: "\e603";
-    color: #C0D660;
-    padding-left: 3.0rem;
-    margin-top: -9rem;
-}
-*/
 
 .outside-in-container .outside-in-Logo {
     position: absolute;
