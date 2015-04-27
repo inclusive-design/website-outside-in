@@ -54,7 +54,7 @@ body {
 .outside-in-container .outside-in-headerTitle .outside-in-headerTitle-icon:before {
     font-size: 7.0rem;
     font-family: "outside-in";
-    content: "\e603";
+    content: "\e604";
     color: #C0D660;
 }
 
@@ -62,7 +62,7 @@ body {
     position: absolute;
     font-size: 7.0rem;
     font-family: "outside-in";
-    content: "\e603";
+    content: "\e604";
     color: #C0D660;
     padding-left: 3.0rem;
     margin-top: -9rem;
@@ -90,15 +90,15 @@ body {
 }
 
 .outside-in-iconColumn1:before {
-    content: "\e606";
+    content: "\e601";
 }
 
 .outside-in-container .outside-in-iconColumn2:before {
-    content: "\e604";
+    content: "\e603";
 }
 
 .outside-in-container .outside-in-iconColumn3:before {
-    content: "\e600";
+    content: "\e607";
 }
 
 .outside-in-container .outside-in-infoRow1 h3:before, 
@@ -122,13 +122,13 @@ body {
 .outside-in-container .outside-in-Ontario-Government-Link:before {
     font-family: "outside-in";
     font-size: 3rem;
-    content: "\e602";
+    content: "\e605";
     color: #FFF;
 }
 
 .outside-in-container .outside-in-footerLogo a:before {
     font-family: "outside-in";
-    content: "\e603";
+    content: "\e604";
     color: #C0D660;
     padding-right: 0.5rem;
 }
