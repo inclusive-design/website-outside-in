@@ -54,7 +54,7 @@ body {
 .outside-in-container .outside-in-headerTitle .outside-in-headerTitle-icon:before {
     font-size: 7.0rem;
     font-family: "outside-in";
-    content: "\e603";
+    content: "\e604";
     color: #C0D660;
 }
 
@@ -62,7 +62,7 @@ body {
     position: absolute;
     font-size: 7.0rem;
     font-family: "outside-in";
-    content: "\e603";
+    content: "\e604";
     color: #C0D660;
     padding-left: 3.0rem;
     margin-top: -9rem;
@@ -90,15 +90,26 @@ body {
 }
 
 .outside-in-iconColumn1:before {
-    content: "\e606";
+    content: "\e601";
 }
 
 .outside-in-container .outside-in-iconColumn2:before {
-    content: "\e604";
+    content: "\e603";
 }
 
 .outside-in-container .outside-in-iconColumn3:before {
-    content: "\e600";
+    content: "\e607";
+}
+
+.outside-in-container .outside-in-infoRow1 h3:before, 
+.outside-in-container .outside-in-infoRow2 h3:before,
+.outside-in-container .outside-in-aboutPartnersRow h3:before {
+    background: #C0D660;
+    content: "";
+    height: 0.8rem;
+    position: absolute;
+    top: -1rem;
+    width: 2.5rem;
 }
 
 .outside-in-container .outside-in-idi-Link:before {
@@ -111,13 +122,13 @@ body {
 .outside-in-container .outside-in-Ontario-Government-Link:before {
     font-family: "outside-in";
     font-size: 3rem;
-    content: "\e602";
+    content: "\e605";
     color: #FFF;
 }
 
 .outside-in-container .outside-in-footerLogo a:before {
     font-family: "outside-in";
-    content: "\e603";
+    content: "\e604";
     color: #C0D660;
     padding-right: 0.5rem;
 }
@@ -222,10 +233,23 @@ body {
     color: #4c4c4c;
 }
 
+.outside-in-container .outside-in-infoRow1 {
+    padding-top: 3rem;
+    color: #4c4c4c;
+    background-color: #FFF;
+}
+
+.outside-in-container .outside-in-infoRow2 {
+    padding-top: 1.5rem;
+    padding-bottom: 3rem;
+    color: #4c4c4c;
+    background-color: #FFF;
+}
+
 .outside-in-container .outside-in-aboutRow h2, 
 .outside-in-container .outside-in-partnersRow h2, 
 .outside-in-container .outside-in-footerRow h2 {
-    font-size:0.9rem;
+    font-size:1.2rem;
     letter-spacing: 0.04rem;
     color: #4c4c4c;
     font-weight: bold;
@@ -235,7 +259,26 @@ body {
     color:#FFF;
 }
 
-.outside-in-aboutRow p, .outside-in-partnersRow p {
+.outside-in-container .outside-in-infoRow1 h3,
+.outside-in-container .outside-in-infoRow2 h3,
+.outside-in-container .outside-in-aboutPartnersRow h3 {
+    font-size: 1.2rem;
+    letter-spacing 0.04rem;
+    color: #4c4c4c;
+    font-weight: bold;
+    margin: 0 0 1rem 0;
+}
+
+.outside-in-container .outside-in-infoRow1 h4,
+.outside-in-container .outside-in-infoRow2 h4 {
+    font-size: 1.1rem;
+    color: #4c4c4c;
+    font-weight: semi-bold;
+}
+
+.outside-in-aboutRow p, .outside-in-partnersRow p,
+.outside-in-infoRow1 p, .outside-in-infoRow2 p,
+.outside-in-aboutPartnersRow p {
     font-size: 0.9rem;
     font-family: "OpenSans-Light";
     line-height: 175%;
@@ -243,7 +286,7 @@ body {
     
 .outside-in-container .outside-in-listRow {
     padding-top: 2.5rem;
-    padding-bottom:1 rem;
+    padding-bottom: 1rem;
     background-color: #FFF;
 }
 
@@ -287,13 +330,17 @@ body {
     padding-bottom: 5rem;
 }
 
-.outside-in-container .outside-in-partnersRow li {
+.outside-in-container .outside-in-partnersRow li,
+.outside-in-container .outside-in-infoRow1 li,
+.outside-in-container .outside-in-infoRow2 li {
     font-size: 0.9rem;
     font-family: "OpenSans-Light";
     margin: 0 0 0.5rem 0;
+    line-height: 1.5rem;
 }
 
-.outside-in-container .outside-in-partnersRow a {
+.outside-in-container .outside-in-partnersRow a,
+.outside-in-container .outside-in-aboutPartnersRow a {
     font-size: 0.9rem;
     font-family: "OpenSans-Semibold";
     text-decoration: none;
@@ -332,19 +379,6 @@ body {
     display: inline;
     padding: 3rem 0.3rem 0.6rem 0.3rem;
 }
-
-
-/*.outside-in-container .outside-in-footer-logos {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-}
-
-.outside-in-container .outside-in-footer-logos li {
-    width: 50%;
-    list-style: none;
-}
-*/
 
 .outside-in-container .outside-in-footerLogo {
     text-align: center;
@@ -396,12 +430,6 @@ body {
         padding: 4.5rem 3rem 0 0;
     }
 }
-
-/*@media only screen and (max-width: 25rem) {
-    .outside-in-container .outside-in-headerLinks {
-        padding: 4.5rem 3.0rem 0 0;
-    }
-}*/
 
 @media only screen and (max-width: 75rem) {
     .outside-in-container .outside-in-headerTitle {
