@@ -67,7 +67,7 @@ body {
 }
 
 
-.outside-in-container .outside-in-listRowStyle1:before, 
+.outside-in-container .outside-in-listRowStyle1:before,
 .outside-in-container .outside-in-listRowStyle2:before {
     background: #C0D660;
     content: "";
@@ -124,14 +124,20 @@ body {
 .fl-prefsEditor-buttons {
     font-size: 0.8rem;
     margin-left: 2rem;
+    margin-right: 4%;
 }
 
-.fl-prefsEditor-separatedPanel .fl-prefsEditor-showHide {
+.fl-prefsEditor-showHide {
     min-width: inherit;
 }
 
-.fl-prefsEditor-separatedPanel .fl-panelBar .fl-prefsEditor-buttons {
-    margin-right: 4%;
+.fl-prefsEditor-buttons button {
+    margin: 0.5rem;
+    padding: 0;
+}
+
+.fl-prefsEditor-buttons button:focus {
+    outline: 0.2rem solid #4c4c4c;
 }
 
 .outside-in-container .outside-in-TOC {
@@ -221,8 +227,8 @@ body {
     color: #4c4c4c;
 }
 
-.outside-in-container .outside-in-aboutRow h2, 
-.outside-in-container .outside-in-partnersRow h2, 
+.outside-in-container .outside-in-aboutRow h2,
+.outside-in-container .outside-in-partnersRow h2,
 .outside-in-container .outside-in-footerRow h2 {
     font-size:0.9rem;
     letter-spacing: 0.04rem;
@@ -239,7 +245,7 @@ body {
     font-family: "OpenSans-Light";
     line-height: 175%;
 }
-    
+
 .outside-in-container .outside-in-listRow {
     padding-top: 2.5rem;
     padding-bottom:1 rem;
@@ -300,7 +306,7 @@ body {
     color: #4c4c4c;
     margin: 0 0 0.5rem 0;
 }
-    
+
 .outside-in-container .outside-in-footerRow {
     background-color: #444444;
     background-size: 100% auto;
@@ -332,19 +338,6 @@ body {
     padding: 3rem 0.3rem 0.6rem 0.3rem;
 }
 
-
-/*.outside-in-container .outside-in-footer-logos {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-}
-
-.outside-in-container .outside-in-footer-logos li {
-    width: 50%;
-    list-style: none;
-}
-*/
-
 .outside-in-container .outside-in-footerLogo {
     text-align: center;
     font-family: "Mensch";
@@ -363,17 +356,18 @@ body {
     font-family: "OpenSans-Semibold";
 }
 
-.outside-in-container a:focus, .outside-in-container a:focus:before {
+.outside-in-container a:focus,
+.outside-in-container a:focus:before {
     background: #f2e93b;
     color: #4c4c4c;
     outline: none;
     border-bottom: none;
 }
 
-.outside-in-container .outside-in-headerLinks a:hover, 
-.outside-in-container .outside-in-partnersRow a:hover, 
-.outside-in-container .outside-in-emailLink:hover, 
-.outside-in-container .outside-in-footerLogo a:hover:before, 
+.outside-in-container .outside-in-headerLinks a:hover,
+.outside-in-container .outside-in-partnersRow a:hover,
+.outside-in-container .outside-in-emailLink:hover,
+.outside-in-container .outside-in-footerLogo a:hover:before,
 .outside-in-container .outside-in-footerLogo a:hover {
     color: #4c4c4c;
     background-color: #C0D660;
@@ -396,12 +390,6 @@ body {
     }
 }
 
-/*@media only screen and (max-width: 25rem) {
-    .outside-in-container .outside-in-headerLinks {
-        padding: 4.5rem 3.0rem 0 0;
-    }
-}*/
-
 @media only screen and (max-width: 75rem) {
     .outside-in-container .outside-in-headerTitle {
         padding-top: 10rem;
@@ -415,80 +403,99 @@ body {
  }
 
 /* Contrast themes. */
-.fl-theme-bw .outside-in-container .outside-in-headerLinks a:hover, 
-.fl-theme-bw .outside-in-container .outside-in-partnersRow a:hover, 
-.fl-theme-bw .outside-in-container .outside-in-emailLink:hover, 
-.fl-theme-bw .outside-in-container .outside-in-footerLogo a:hover:before, 
+.fl-theme-bw .outside-in-container .outside-in-headerLinks a:hover,
+.fl-theme-bw .outside-in-container .outside-in-partnersRow a:hover,
+.fl-theme-bw .outside-in-container .outside-in-emailLink:hover,
+.fl-theme-bw .outside-in-container .outside-in-footerLogo a:hover:before,
 .fl-theme-bw .outside-in-container .outside-in-footerLogo a:hover,
-.fl-theme-bw .outside-in-container .outside-in-iconColumn:before {
+.fl-theme-bw .outside-in-container .outside-in-iconColumn:before,
+.fl-theme-bw .outside-in-container a:focus,
+.fl-theme-bw .outside-in-container a:focus:before,
+.fl-theme-bw .fl-prefsEditor-buttons button:focus {
     background-color: #000 !important;
     color: #fff !important;
+    outline: none;
 }
 
-.fl-theme-bw .outside-in-container .outside-in-listRowStyle1:before, 
+.fl-theme-bw .outside-in-container .outside-in-listRowStyle1:before,
 .fl-theme-bw .outside-in-container .outside-in-listRowStyle2:before {
     background-color: #000;
 }
 
-
-.fl-theme-wb .outside-in-container .outside-in-headerLinks a:hover, 
-.fl-theme-wb .outside-in-container .outside-in-partnersRow a:hover, 
-.fl-theme-wb .outside-in-container .outside-in-emailLink:hover, 
-.fl-theme-wb .outside-in-container .outside-in-footerLogo a:hover:before, 
+.fl-theme-wb .outside-in-container .outside-in-headerLinks a:hover,
+.fl-theme-wb .outside-in-container .outside-in-partnersRow a:hover,
+.fl-theme-wb .outside-in-container .outside-in-emailLink:hover,
+.fl-theme-wb .outside-in-container .outside-in-footerLogo a:hover:before,
 .fl-theme-wb .outside-in-container .outside-in-footerLogo a:hover,
-.fl-theme-wb .outside-in-container .outside-in-iconColumn:before {
+.fl-theme-wb .outside-in-container .outside-in-iconColumn:before,
+.fl-theme-wb .outside-in-container a:focus,
+.fl-theme-wb .outside-in-container a:focus:before,
+.fl-theme-wb .fl-prefsEditor-buttons button:focus {
     background-color: #fff !important;
     color: #000 !important;
+    outline: none;
 }
 
-.fl-theme-wb .outside-in-container .outside-in-listRowStyle1:before, 
+.fl-theme-wb .outside-in-container .outside-in-listRowStyle1:before,
 .fl-theme-wb .outside-in-container .outside-in-listRowStyle2:before {
     background-color: #fff;
 }
 
 
-.fl-theme-yb .outside-in-container .outside-in-headerLinks a:hover, 
-.fl-theme-yb .outside-in-container .outside-in-partnersRow a:hover, 
-.fl-theme-yb .outside-in-container .outside-in-emailLink:hover, 
-.fl-theme-yb .outside-in-container .outside-in-footerLogo a:hover:before, 
+.fl-theme-yb .outside-in-container .outside-in-headerLinks a:hover,
+.fl-theme-yb .outside-in-container .outside-in-partnersRow a:hover,
+.fl-theme-yb .outside-in-container .outside-in-emailLink:hover,
+.fl-theme-yb .outside-in-container .outside-in-footerLogo a:hover:before,
 .fl-theme-yb .outside-in-container .outside-in-footerLogo a:hover,
-.fl-theme-yb .outside-in-container .outside-in-iconColumn:before {
+.fl-theme-yb .outside-in-container .outside-in-iconColumn:before,
+.fl-theme-yb .outside-in-container a:focus,
+.fl-theme-yb .outside-in-container a:focus:before,
+.fl-theme-yb .fl-prefsEditor-buttons button:focus {
     background-color: #ffff00 !important;
     color: #000 !important;
+    outline: none;
 }
 
-.fl-theme-yb .outside-in-container .outside-in-listRowStyle1:before, 
+.fl-theme-yb .outside-in-container .outside-in-listRowStyle1:before,
 .fl-theme-yb .outside-in-container .outside-in-listRowStyle2:before {
     background-color: #ffff00;
 }
 
 
-.fl-theme-by .outside-in-container .outside-in-headerLinks a:hover, 
-.fl-theme-by .outside-in-container .outside-in-partnersRow a:hover, 
-.fl-theme-by .outside-in-container .outside-in-emailLink:hover, 
-.fl-theme-by .outside-in-container .outside-in-footerLogo a:hover:before, 
+.fl-theme-by .outside-in-container .outside-in-headerLinks a:hover,
+.fl-theme-by .outside-in-container .outside-in-partnersRow a:hover,
+.fl-theme-by .outside-in-container .outside-in-emailLink:hover,
+.fl-theme-by .outside-in-container .outside-in-footerLogo a:hover:before,
 .fl-theme-by .outside-in-container .outside-in-footerLogo a:hover,
-.fl-theme-by .outside-in-container .outside-in-iconColumn:before {
+.fl-theme-by .outside-in-container .outside-in-iconColumn:before,
+.fl-theme-by .outside-in-container a:focus,
+.fl-theme-by .outside-in-container a:focus:before,
+.fl-theme-by .fl-prefsEditor-buttons button:focus {
     background-color: #000 !important;
     color: #ffff00 !important;
+    outline: none;
 }
 
-.fl-theme-by .outside-in-container .outside-in-listRowStyle1:before, 
+.fl-theme-by .outside-in-container .outside-in-listRowStyle1:before,
 .fl-theme-by .outside-in-container .outside-in-listRowStyle2:before {
     background-color: #000;
 }
 
-.fl-theme-lgdg .outside-in-container .outside-in-headerLinks a:hover, 
-.fl-theme-lgdg .outside-in-container .outside-in-partnersRow a:hover, 
-.fl-theme-lgdg .outside-in-container .outside-in-emailLink:hover, 
-.fl-theme-lgdg .outside-in-container .outside-in-footerLogo a:hover:before, 
+.fl-theme-lgdg .outside-in-container .outside-in-headerLinks a:hover,
+.fl-theme-lgdg .outside-in-container .outside-in-partnersRow a:hover,
+.fl-theme-lgdg .outside-in-container .outside-in-emailLink:hover,
+.fl-theme-lgdg .outside-in-container .outside-in-footerLogo a:hover:before,
 .fl-theme-lgdg .outside-in-container .outside-in-footerLogo a:hover,
-.fl-theme-lgdg .outside-in-container .outside-in-iconColumn:before {
+.fl-theme-lgdg .outside-in-container .outside-in-iconColumn:before,
+.fl-theme-lgdg .outside-in-container a:focus,
+.fl-theme-lgdg .outside-in-container a:focus:before,
+.fl-theme-lgdg .fl-prefsEditor-buttons button:focus {
     background-color: #bdbdbb !important;
     color: #555 !important;
+    outline: none;
 }
 
-.fl-theme-lgdg .outside-in-container .outside-in-listRowStyle1:before, 
+.fl-theme-lgdg .outside-in-container .outside-in-listRowStyle1:before,
 .fl-theme-lgdg .outside-in-container .outside-in-listRowStyle2:before {
     background-color: #bdbdbb;
 }
