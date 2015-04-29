@@ -104,7 +104,7 @@ body {
     content: "\e607";
 }
 
-.outside-in-container .outside-in-infoRow1 h3:before, 
+.outside-in-container .outside-in-infoRow1 h3:before,
 .outside-in-container .outside-in-infoRow2 h3:before,
 .outside-in-container .outside-in-aboutPartnersRow h3:before {
     background: #C0D660;
@@ -421,7 +421,8 @@ body {
 .outside-in-container .outside-in-partnersRow a:hover,
 .outside-in-container .outside-in-emailLink:hover,
 .outside-in-container .outside-in-footerLogo a:hover:before,
-.outside-in-container .outside-in-footerLogo a:hover {
+.outside-in-container .outside-in-footerLogo a:hover,
+.fl-prefsEditor-buttons button:hover {
     color: #4c4c4c;
     background-color: #C0D660;
 }
@@ -464,7 +465,8 @@ body {
 .fl-theme-bw .outside-in-container .outside-in-iconColumn:before,
 .fl-theme-bw .outside-in-container a:focus,
 .fl-theme-bw .outside-in-container a:focus:before,
-.fl-theme-bw .fl-prefsEditor-buttons button:focus {
+.fl-theme-bw .fl-prefsEditor-buttons button:focus,
+.fl-theme-bw .fl-prefsEditor-buttons button:hover {
     background-color: #000 !important;
     color: #fff !important;
     outline: none;
@@ -483,7 +485,8 @@ body {
 .fl-theme-wb .outside-in-container .outside-in-iconColumn:before,
 .fl-theme-wb .outside-in-container a:focus,
 .fl-theme-wb .outside-in-container a:focus:before,
-.fl-theme-wb .fl-prefsEditor-buttons button:focus {
+.fl-theme-wb .fl-prefsEditor-buttons button:focus,
+.fl-theme-wb .fl-prefsEditor-buttons button:hover {
     background-color: #fff !important;
     color: #000 !important;
     outline: none;
@@ -503,7 +506,8 @@ body {
 .fl-theme-yb .outside-in-container .outside-in-iconColumn:before,
 .fl-theme-yb .outside-in-container a:focus,
 .fl-theme-yb .outside-in-container a:focus:before,
-.fl-theme-yb .fl-prefsEditor-buttons button:focus {
+.fl-theme-yb .fl-prefsEditor-buttons button:focus,
+.fl-theme-yb .fl-prefsEditor-buttons button:hover {
     background-color: #ffff00 !important;
     color: #000 !important;
     outline: none;
@@ -523,7 +527,8 @@ body {
 .fl-theme-by .outside-in-container .outside-in-iconColumn:before,
 .fl-theme-by .outside-in-container a:focus,
 .fl-theme-by .outside-in-container a:focus:before,
-.fl-theme-by .fl-prefsEditor-buttons button:focus {
+.fl-theme-by .fl-prefsEditor-buttons button:focus,
+.fl-theme-by .fl-prefsEditor-buttons button:hover {
     background-color: #000 !important;
     color: #ffff00 !important;
     outline: none;
@@ -542,7 +547,8 @@ body {
 .fl-theme-lgdg .outside-in-container .outside-in-iconColumn:before,
 .fl-theme-lgdg .outside-in-container a:focus,
 .fl-theme-lgdg .outside-in-container a:focus:before,
-.fl-theme-lgdg .fl-prefsEditor-buttons button:focus {
+.fl-theme-lgdg .fl-prefsEditor-buttons button:focus,
+.fl-theme-lgdg .fl-prefsEditor-buttons button:hover {
     background-color: #bdbdbb !important;
     color: #555 !important;
     outline: none;
