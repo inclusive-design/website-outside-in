@@ -158,10 +158,7 @@ body {
 
 .outside-in-container .outside-in-TOC {
     font-size: 1.0rem;
-    margin-left: 3.0rem;
-    background-color: #FFFFF;
-    padding-top: 1rem;
-    color: #000;
+    margin: 1rem 0;
 }
 
 .outside-in-container .outside-in-TOC h1 {
@@ -466,7 +463,10 @@ body {
 .fl-theme-bw .outside-in-container a:focus,
 .fl-theme-bw .outside-in-container a:focus:before,
 .fl-theme-bw .fl-prefsEditor-buttons button:focus,
-.fl-theme-bw .fl-prefsEditor-buttons button:hover {
+.fl-theme-bw .fl-prefsEditor-buttons button:hover,
+.fl-theme-bw .outside-in-container .outside-in-infoRow1 h3:before,
+.fl-theme-bw .outside-in-container .outside-in-infoRow2 h3:before,
+.fl-theme-bw .outside-in-container .outside-in-aboutPartnersRow h3:before {
     background-color: #000 !important;
     color: #fff !important;
     outline: none;
@@ -486,7 +486,10 @@ body {
 .fl-theme-wb .outside-in-container a:focus,
 .fl-theme-wb .outside-in-container a:focus:before,
 .fl-theme-wb .fl-prefsEditor-buttons button:focus,
-.fl-theme-wb .fl-prefsEditor-buttons button:hover {
+.fl-theme-wb .fl-prefsEditor-buttons button:hover,
+.fl-theme-wb .outside-in-container .outside-in-infoRow1 h3:before,
+.fl-theme-wb .outside-in-container .outside-in-infoRow2 h3:before,
+.fl-theme-wb .outside-in-container .outside-in-aboutPartnersRow h3:before  {
     background-color: #fff !important;
     color: #000 !important;
     outline: none;
@@ -507,7 +510,10 @@ body {
 .fl-theme-yb .outside-in-container a:focus,
 .fl-theme-yb .outside-in-container a:focus:before,
 .fl-theme-yb .fl-prefsEditor-buttons button:focus,
-.fl-theme-yb .fl-prefsEditor-buttons button:hover {
+.fl-theme-yb .fl-prefsEditor-buttons button:hover,
+.fl-theme-yb .outside-in-container .outside-in-infoRow1 h3:before,
+.fl-theme-yb .outside-in-container .outside-in-infoRow2 h3:before,
+.fl-theme-yb .outside-in-container .outside-in-aboutPartnersRow h3:before  {
     background-color: #ffff00 !important;
     color: #000 !important;
     outline: none;
@@ -528,7 +534,10 @@ body {
 .fl-theme-by .outside-in-container a:focus,
 .fl-theme-by .outside-in-container a:focus:before,
 .fl-theme-by .fl-prefsEditor-buttons button:focus,
-.fl-theme-by .fl-prefsEditor-buttons button:hover {
+.fl-theme-by .fl-prefsEditor-buttons button:hover,
+.fl-theme-by .outside-in-container .outside-in-infoRow1 h3:before,
+.fl-theme-by .outside-in-container .outside-in-infoRow2 h3:before,
+.fl-theme-by .outside-in-container .outside-in-aboutPartnersRow h3:before  {
     background-color: #000 !important;
     color: #ffff00 !important;
     outline: none;
@@ -548,7 +557,10 @@ body {
 .fl-theme-lgdg .outside-in-container a:focus,
 .fl-theme-lgdg .outside-in-container a:focus:before,
 .fl-theme-lgdg .fl-prefsEditor-buttons button:focus,
-.fl-theme-lgdg .fl-prefsEditor-buttons button:hover {
+.fl-theme-lgdg .fl-prefsEditor-buttons button:hover,
+.fl-theme-lgdg .outside-in-container .outside-in-infoRow1 h3:before,
+.fl-theme-lgdg .outside-in-container .outside-in-infoRow2 h3:before,
+.fl-theme-lgdg .outside-in-container .outside-in-aboutPartnersRow h3:before  {
     background-color: #bdbdbb !important;
     color: #555 !important;
     outline: none;
