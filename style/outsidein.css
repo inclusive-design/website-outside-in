@@ -45,17 +45,21 @@
 body {
     font-size: 12px;
     font-size: 1.2rem;
+    line-height: 1.6em;
 }
 
 .outside-in-container {
     font-family: "OpenSans";
 }
 
+.outside-in-container .outside-in-headerTitle .outside-in-headerTitle-icon {
+    color: #C0D660;
+}
+
 .outside-in-container .outside-in-headerTitle .outside-in-headerTitle-icon:before {
     font-size: 7.0rem;
     font-family: "outside-in";
     content: "\e604";
-    color: #C0D660;
 }
 
 .outside-in-container .outside-in-Logo {
@@ -69,7 +73,7 @@ body {
 }
 
 
-.outside-in-container .outside-in-listRowStyle1:before, 
+.outside-in-container .outside-in-listRowStyle1:before,
 .outside-in-container .outside-in-listRowStyle2:before {
     background: #C0D660;
     content: "";
@@ -101,7 +105,7 @@ body {
     content: "\e607";
 }
 
-.outside-in-container .outside-in-infoRow1 h3:before, 
+.outside-in-container .outside-in-infoRow1 h3:before,
 .outside-in-container .outside-in-infoRow2 h3:before,
 .outside-in-container .outside-in-aboutPartnersRow h3:before {
     background: #C0D660;
@@ -112,51 +116,56 @@ body {
     width: 2.5rem;
 }
 
+.outside-in-container .outside-in-idi-Link,
+.outside-in-container .outside-in-Ontario-Government-Link {
+    color: #FFF;
+    font-size: 3rem;
+}
+
 .outside-in-container .outside-in-idi-Link:before {
     font-family: "outside-in-IDRC-text";
-    font-size: 3rem;
     content: "\e600";
-    color: #FFF;
 }
 
 .outside-in-container .outside-in-Ontario-Government-Link:before {
     font-family: "outside-in";
-    font-size: 3rem;
     content: "\e605";
-    color: #FFF;
 }
 
 .outside-in-container .outside-in-footerLogo a:before {
     font-family: "outside-in";
     content: "\e604";
-    color: #C0D660;
     padding-right: 0.5rem;
 }
 
 .fl-prefsEditor-buttons {
     font-size: 0.8rem;
     margin-left: 2rem;
+    margin-right: 4%;
 }
 
-.fl-prefsEditor-separatedPanel .fl-prefsEditor-showHide {
+.fl-prefsEditor-showHide {
     min-width: inherit;
 }
 
-.fl-prefsEditor-separatedPanel .fl-panelBar .fl-prefsEditor-buttons {
-    margin-right: 4%;
+.fl-prefsEditor-buttons button {
+    margin: 0.5rem;
+    padding: 0;
+}
+
+.fl-prefsEditor-buttons button:focus {
+    outline: 0.2rem solid #4c4c4c;
 }
 
 .outside-in-container .outside-in-TOC {
     font-size: 1.0rem;
-    margin-left: 3.0rem;
-    background-color: #FFFFF;
-    padding-top: 1rem;
-    color: #000;
+    margin: 1rem 0;
 }
 
 .outside-in-container .outside-in-TOC h1 {
     font-family: "OpenSans-Semibold";
     font-size: 2.0rem;
+    color: #4c4c4c;
 }
 
 .outside-in-container .outside-in-TOC li {
@@ -164,7 +173,8 @@ body {
 }
 
 .outside-in-container .outside-in-TOC a {
-    color: #000;
+    color: #4c4c4c;
+    text-decoration: underline;
 }
 
 .outside-in-container .outside-in-headerLinks a {
@@ -211,6 +221,7 @@ body {
     font-family: "OpenSans-Semibold";
     font-size: 0.9rem;
     height: 3rem;
+    padding-top: 0.8rem;
 }
 
 .outside-in-container .outside-in-headerTitle {
@@ -246,8 +257,8 @@ body {
     background-color: #FFF;
 }
 
-.outside-in-container .outside-in-aboutRow h2, 
-.outside-in-container .outside-in-partnersRow h2, 
+.outside-in-container .outside-in-aboutRow h2,
+.outside-in-container .outside-in-partnersRow h2,
 .outside-in-container .outside-in-footerRow h2 {
     font-size:1.2rem;
     letter-spacing: 0.04rem;
@@ -278,12 +289,13 @@ body {
 
 .outside-in-aboutRow p, .outside-in-partnersRow p,
 .outside-in-infoRow1 p, .outside-in-infoRow2 p,
-.outside-in-aboutPartnersRow p {
+.outside-in-aboutPartnersRow p,
+.outside-in-TOC li,
+ {
     font-size: 0.9rem;
     font-family: "OpenSans-Light";
-    line-height: 175%;
 }
-    
+
 .outside-in-container .outside-in-listRow {
     padding-top: 2.5rem;
     padding-bottom: 1rem;
@@ -336,7 +348,6 @@ body {
     font-size: 0.9rem;
     font-family: "OpenSans-Light";
     margin: 0 0 0.5rem 0;
-    line-height: 1.5rem;
 }
 
 .outside-in-container .outside-in-partnersRow a,
@@ -348,7 +359,7 @@ body {
     color: #4c4c4c;
     margin: 0 0 0.5rem 0;
 }
-    
+
 .outside-in-container .outside-in-footerRow {
     background-color: #444444;
     background-size: 100% auto;
@@ -357,7 +368,6 @@ body {
     padding-bottom: 4rem;
     font-size: 0.9rem;
     font-family: "OpenSans-Light";
-    line-height: 175%;
 }
 
 .outside-in-container .outside-in-footerColumn {
@@ -398,24 +408,27 @@ body {
     font-family: "OpenSans-Semibold";
 }
 
-.outside-in-container a:focus, .outside-in-container a:focus:before {
+.outside-in-container a:focus,
+.outside-in-container a:focus:before {
     background: #f2e93b;
     color: #4c4c4c;
     outline: none;
     border-bottom: none;
 }
-  
-.outside-in-container .outside-in-headerLinks a:hover, 
-.outside-in-container .outside-in-partnersRow a:hover, 
-.outside-in-container .outside-in-emailLink:hover, 
-.outside-in-container .outside-in-footerLogo a:hover:before, 
-.outside-in-container .outside-in-footerLogo a:hover {
+
+.outside-in-container .outside-in-headerLinks a:hover,
+.outside-in-container .outside-in-partnersRow a:hover,
+.outside-in-container .outside-in-emailLink:hover,
+.outside-in-container .outside-in-footerLogo a:hover:before,
+.outside-in-container .outside-in-footerLogo a:hover,
+.fl-prefsEditor-buttons button:hover,
+.outside-in-container .outside-in-TOC a:hover {
     color: #4c4c4c;
     background-color: #C0D660;
 }
 
-.outside-in-container .outside-in-idi-Link:hover:before, 
-.outside-in-container .outside-in-Ontario-Government-Link:hover:before {
+.outside-in-container .outside-in-idi-Link:hover,
+.outside-in-container .outside-in-Ontario-Government-Link:hover {
     color: #C0D660;
 }
 
@@ -442,4 +455,131 @@ body {
         padding: 2rem 2.0rem 2rem 0;
     }
  }
-   
+
+/* Contrast themes. */
+.fl-theme-bw .outside-in-container .outside-in-headerLinks a:hover,
+.fl-theme-bw .outside-in-container .outside-in-partnersRow a:hover,
+.fl-theme-bw .outside-in-container .outside-in-emailLink:hover,
+.fl-theme-bw .outside-in-container .outside-in-footerLogo a:hover:before,
+.fl-theme-bw .outside-in-container .outside-in-footerLogo a:hover,
+.fl-theme-bw .outside-in-container .outside-in-iconColumn:before,
+.fl-theme-bw .outside-in-container a:focus,
+.fl-theme-bw .outside-in-container a:focus:before,
+.fl-theme-bw .fl-prefsEditor-buttons button:focus,
+.fl-theme-bw .fl-prefsEditor-buttons button:hover,
+.fl-theme-bw .outside-in-container .outside-in-infoRow1 h3:before,
+.fl-theme-bw .outside-in-container .outside-in-infoRow2 h3:before,
+.fl-theme-bw .outside-in-container .outside-in-aboutPartnersRow h3:before,
+.fl-theme-bw .outside-in-container .outside-in-TOC a:hover {
+    background-color: #000 !important;
+    color: #fff !important;
+    outline: none;
+}
+
+.fl-theme-bw .outside-in-container .outside-in-listRowStyle1:before,
+.fl-theme-bw .outside-in-container .outside-in-listRowStyle2:before {
+    background-color: #000;
+}
+
+.fl-theme-wb .outside-in-container .outside-in-headerLinks a:hover,
+.fl-theme-wb .outside-in-container .outside-in-partnersRow a:hover,
+.fl-theme-wb .outside-in-container .outside-in-emailLink:hover,
+.fl-theme-wb .outside-in-container .outside-in-footerLogo a:hover:before,
+.fl-theme-wb .outside-in-container .outside-in-footerLogo a:hover,
+.fl-theme-wb .outside-in-container .outside-in-iconColumn:before,
+.fl-theme-wb .outside-in-container a:focus,
+.fl-theme-wb .outside-in-container a:focus:before,
+.fl-theme-wb .fl-prefsEditor-buttons button:focus,
+.fl-theme-wb .fl-prefsEditor-buttons button:hover,
+.fl-theme-wb .outside-in-container .outside-in-infoRow1 h3:before,
+.fl-theme-wb .outside-in-container .outside-in-infoRow2 h3:before,
+.fl-theme-wb .outside-in-container .outside-in-aboutPartnersRow h3:before,
+.fl-theme-wb .outside-in-container .outside-in-TOC a:hover {
+    background-color: #fff !important;
+    color: #000 !important;
+    outline: none;
+}
+
+.fl-theme-wb .outside-in-container .outside-in-listRowStyle1:before,
+.fl-theme-wb .outside-in-container .outside-in-listRowStyle2:before {
+    background-color: #fff;
+}
+
+
+.fl-theme-yb .outside-in-container .outside-in-headerLinks a:hover,
+.fl-theme-yb .outside-in-container .outside-in-partnersRow a:hover,
+.fl-theme-yb .outside-in-container .outside-in-emailLink:hover,
+.fl-theme-yb .outside-in-container .outside-in-footerLogo a:hover:before,
+.fl-theme-yb .outside-in-container .outside-in-footerLogo a:hover,
+.fl-theme-yb .outside-in-container .outside-in-iconColumn:before,
+.fl-theme-yb .outside-in-container a:focus,
+.fl-theme-yb .outside-in-container a:focus:before,
+.fl-theme-yb .fl-prefsEditor-buttons button:focus,
+.fl-theme-yb .fl-prefsEditor-buttons button:hover,
+.fl-theme-yb .outside-in-container .outside-in-infoRow1 h3:before,
+.fl-theme-yb .outside-in-container .outside-in-infoRow2 h3:before,
+.fl-theme-yb .outside-in-container .outside-in-aboutPartnersRow h3:before,
+.fl-theme-yb .outside-in-container .outside-in-TOC a:hover  {
+    background-color: #ffff00 !important;
+    color: #000 !important;
+    outline: none;
+}
+
+.fl-theme-yb .outside-in-container .outside-in-listRowStyle1:before,
+.fl-theme-yb .outside-in-container .outside-in-listRowStyle2:before {
+    background-color: #ffff00;
+}
+
+
+.fl-theme-by .outside-in-container .outside-in-headerLinks a:hover,
+.fl-theme-by .outside-in-container .outside-in-partnersRow a:hover,
+.fl-theme-by .outside-in-container .outside-in-emailLink:hover,
+.fl-theme-by .outside-in-container .outside-in-footerLogo a:hover:before,
+.fl-theme-by .outside-in-container .outside-in-footerLogo a:hover,
+.fl-theme-by .outside-in-container .outside-in-iconColumn:before,
+.fl-theme-by .outside-in-container a:focus,
+.fl-theme-by .outside-in-container a:focus:before,
+.fl-theme-by .fl-prefsEditor-buttons button:focus,
+.fl-theme-by .fl-prefsEditor-buttons button:hover,
+.fl-theme-by .outside-in-container .outside-in-infoRow1 h3:before,
+.fl-theme-by .outside-in-container .outside-in-infoRow2 h3:before,
+.fl-theme-by .outside-in-container .outside-in-aboutPartnersRow h3:before,
+.fl-theme-by .outside-in-container .outside-in-TOC a:hover {
+    background-color: #000 !important;
+    color: #ffff00 !important;
+    outline: none;
+}
+
+.fl-theme-by .outside-in-container .outside-in-listRowStyle1:before,
+.fl-theme-by .outside-in-container .outside-in-listRowStyle2:before {
+    background-color: #000;
+}
+
+.fl-theme-lgdg .outside-in-container .outside-in-headerLinks a:hover,
+.fl-theme-lgdg .outside-in-container .outside-in-partnersRow a:hover,
+.fl-theme-lgdg .outside-in-container .outside-in-emailLink:hover,
+.fl-theme-lgdg .outside-in-container .outside-in-footerLogo a:hover:before,
+.fl-theme-lgdg .outside-in-container .outside-in-footerLogo a:hover,
+.fl-theme-lgdg .outside-in-container .outside-in-iconColumn:before,
+.fl-theme-lgdg .outside-in-container a:focus,
+.fl-theme-lgdg .outside-in-container a:focus:before,
+.fl-theme-lgdg .fl-prefsEditor-buttons button:focus,
+.fl-theme-lgdg .fl-prefsEditor-buttons button:hover,
+.fl-theme-lgdg .outside-in-container .outside-in-infoRow1 h3:before,
+.fl-theme-lgdg .outside-in-container .outside-in-infoRow2 h3:before,
+.fl-theme-lgdg .outside-in-container .outside-in-aboutPartnersRow h3:before,
+.fl-theme-lgdg .outside-in-container .outside-in-TOC a:hover {
+    background-color: #bdbdbb !important;
+    color: #555 !important;
+    outline: none;
+}
+
+.fl-theme-lgdg .outside-in-container .outside-in-listRowStyle1:before,
+.fl-theme-lgdg .outside-in-container .outside-in-listRowStyle2:before {
+    background-color: #bdbdbb;
+}
+
+/* Override Foundation line height so UIO line spacing works */
+.outside-in-container ul, ol, dl, p {
+    line-height: inherit;
+}
