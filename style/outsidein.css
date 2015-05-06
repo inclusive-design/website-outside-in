@@ -207,10 +207,11 @@ body {
 .outside-in-container .outside-in-header {
     background-color: #2c2c2c;
     background-image: url("../images/header image.jpg"), none;
-    background-position: 0% 0%;
+    background-position: right bottom;
+    background-origin: 0 0;
+/*    background-attachment: fixed;*/
     background-size: 100% auto;
     background-repeat: no-repeat;
-    background-attachment: fixed;
     text-align: center;
 }
 
@@ -432,27 +433,27 @@ body {
     color: #C0D660;
 }
 
-@media only screen and (max-width: 75rem) {
+@media only screen and (max-width: 95rem) {
     .outside-in-container .outside-in-header {
-    background-size: 105rem auto;
+    background-size: 81rem auto;
     }
 }
 
-@media only screen and (max-width: 40rem) {
+@media only screen and (max-width: 55rem) {
     .outside-in-container .outside-in-headerLinks {
         padding: 4.5rem 3rem 0 0;
-    }
-}
-
-@media only screen and (max-width: 75rem) {
-    .outside-in-container .outside-in-headerTitle {
-        padding-top: 10rem;
     }
 }
 
 @media only screen and (max-width: 25rem) {
     .outside-in-container .outside-in-rowPadding {
         padding: 2rem 2.0rem 2rem 0;
+    }
+ }
+ 
+@media only screen and (max-width: 55rem) {
+    .outside-in-container .outside-in-header {
+        background-position: 80% bottom;
     }
  }
 
