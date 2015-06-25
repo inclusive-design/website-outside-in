@@ -107,8 +107,7 @@ body {
 
 .outside-in-container .outside-in-infoRow1 h3:before,
 .outside-in-container .outside-in-infoRow2 h3:before,
-.outside-in-container .outside-in-aboutPartnersRow h3:before,
-.outside-in-container .outside-in-obligatedOrgs h3:before {
+.outside-in-container .outside-in-aboutPartnersRow h3:before {
     background: #C0D660;
     content: "";
     height: 0.8rem;
@@ -239,8 +238,7 @@ body {
     max-width: none;
 }
 
-.outside-in-container .outside-in-aboutRow,
-.outside-in-container .outside-in-obligatedOrgs {
+.outside-in-container .outside-in-aboutRow {
     padding-top: 3rem;
     padding-bottom: 2rem;
     color: #4c4c4c;
@@ -274,8 +272,7 @@ body {
 
 .outside-in-container .outside-in-infoRow1 h3,
 .outside-in-container .outside-in-infoRow2 h3,
-.outside-in-container .outside-in-aboutPartnersRow h3,
-.outside-in-container .outside-in-obligatedOrgs h3 {
+.outside-in-container .outside-in-aboutPartnersRow h3 {
     font-size: 1.2rem;
     letter-spacing: 0.045rem;
     color: #4c4c4c;
@@ -323,7 +320,8 @@ body {
     position: relative;
 }
 
-.outside-in-container .outside-in-registerNow {
+.outside-in-container .outside-in-registerNow,
+.outside-in-container .outside-in-checkoutClasses {
     text-align: center;
 }
 
@@ -366,10 +364,19 @@ body {
     margin: 0 0 0.5rem 0;
 }
 
+.outside-in-container .outside-in-checkoutClasses a {
+    font-size: 1.2rem;
+    font-family: "OpenSans-Semibold";
+    text-decoration: none;
+    border-bottom: 0.18rem solid #C0D660;
+    color: #4c4c4c;
+    margin: 0 0 0.5rem 0;
+}
+
+
 .outside-in-container .outside-in-partnersRow a,
 .outside-in-container .outside-in-aboutPartnersRow a,
-.outside-in-container .outside-in-infoRow1 a, 
-.outside-in-container .outside-in-obligatedOrgs a {
+.outside-in-container .outside-in-infoRow1 a {
     font-size: 0.9rem;
     font-family: "OpenSans-Semibold";
     text-decoration: none;
@@ -441,7 +448,8 @@ body {
 .outside-in-container .outside-in-footerLogo a:hover,
 .fl-prefsEditor-buttons button:hover,
 .outside-in-container .outside-in-TOC a:hover,
-.outside-in-container .outside-in-aboutPartnersRow a:hover {
+.outside-in-container .outside-in-aboutPartnersRow a:hover,
+.outside-in-container .outside-in-TIGsite:hover {
     color: #4c4c4c;
     background-color: #C0D660;
 }
