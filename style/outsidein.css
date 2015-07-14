@@ -209,7 +209,6 @@ body {
     background-image: url("../images/header image.jpg"), none;
     background-position: right bottom;
     background-origin: 0 0;
-/*    background-attachment: fixed;*/
     background-size: 100% auto;
     background-repeat: no-repeat;
     text-align: center;
@@ -275,7 +274,7 @@ body {
 .outside-in-container .outside-in-infoRow2 h3,
 .outside-in-container .outside-in-aboutPartnersRow h3 {
     font-size: 1.2rem;
-    letter-spacing 0.04rem;
+    letter-spacing: 0.045rem;
     color: #4c4c4c;
     font-weight: bold;
     margin: 0 0 1rem 0;
@@ -321,8 +320,13 @@ body {
     position: relative;
 }
 
+.outside-in-container .outside-in-registerNow,
+.outside-in-container .outside-in-checkoutClasses {
+    text-align: center;
+}
+
 .outside-in-container .outside-in-iconRow {
-    padding-top: 6rem;
+    padding-top: 2rem;
     padding-bottom: 2rem;
     color: #4c4c4c;
     text-align: center;
@@ -351,8 +355,28 @@ body {
     margin: 0 0 0.5rem 0;
 }
 
+.outside-in-container .outside-in-registerNow a {
+    font-size: 1.6rem;
+    font-family: "OpenSans-Semibold";
+    text-decoration: none;
+    border-bottom: 0.18rem solid #C0D660;
+    color: #4c4c4c;
+    margin: 0 0 0.5rem 0;
+}
+
+.outside-in-container .outside-in-checkoutClasses a {
+    font-size: 1.2rem;
+    font-family: "OpenSans-Semibold";
+    text-decoration: none;
+    border-bottom: 0.18rem solid #C0D660;
+    color: #4c4c4c;
+    margin: 0 0 0.5rem 0;
+}
+
+
 .outside-in-container .outside-in-partnersRow a,
-.outside-in-container .outside-in-aboutPartnersRow a {
+.outside-in-container .outside-in-aboutPartnersRow a,
+.outside-in-container .outside-in-infoRow1 a {
     font-size: 0.9rem;
     font-family: "OpenSans-Semibold";
     text-decoration: none;
@@ -372,7 +396,7 @@ body {
 }
 
 .outside-in-container .outside-in-footerColumn {
-    padding: 2.5rem 0 2rem 1.5rem;
+    padding: 0 0 2rem 1.5rem;
 }
 
 .outside-in-container .outside-in-iconLink {
@@ -382,13 +406,14 @@ body {
 .outside-in-container .outside-in-idi-Link {
     display: inline-block;
     margin-bottom: 2rem;
-    padding-left: 0rem;
+    padding-left: 0.2rem;
+    padding-right: 0.2rem;
     padding-bottom: 0.2rem;
 }
 
 .outside-in-container .outside-in-Ontario-Government-Link {
     display: inline;
-    padding: 3rem 0.3rem 0.6rem 0.3rem;
+    padding: 0.5rem 0.3rem 0.5rem 0.3rem;
 }
 
 .outside-in-container .outside-in-footerLogo {
@@ -419,6 +444,8 @@ body {
 
 .outside-in-container .outside-in-headerLinks a:hover,
 .outside-in-container .outside-in-partnersRow a:hover,
+.outside-in-container .outside-in-aboutPartnersRow a:hover,
+.outside-in-container .outside-in-iconRow a:hover,
 .outside-in-container .outside-in-emailLink:hover,
 .outside-in-container .outside-in-footerLogo a:hover:before,
 .outside-in-container .outside-in-footerLogo a:hover,
@@ -459,7 +486,9 @@ body {
 
 /* Contrast themes. */
 .fl-theme-bw .outside-in-container .outside-in-headerLinks a:hover,
+.fl-theme-bw .outside-in-container .outside-in-iconRow a:hover,
 .fl-theme-bw .outside-in-container .outside-in-partnersRow a:hover,
+.fl-theme-bw .outside-in-container .outside-in-aboutPartnersRow a:hover,
 .fl-theme-bw .outside-in-container .outside-in-emailLink:hover,
 .fl-theme-bw .outside-in-container .outside-in-footerLogo a:hover:before,
 .fl-theme-bw .outside-in-container .outside-in-footerLogo a:hover,
@@ -471,7 +500,9 @@ body {
 .fl-theme-bw .outside-in-container .outside-in-infoRow1 h3:before,
 .fl-theme-bw .outside-in-container .outside-in-infoRow2 h3:before,
 .fl-theme-bw .outside-in-container .outside-in-aboutPartnersRow h3:before,
-.fl-theme-bw .outside-in-container .outside-in-TOC a:hover {
+.fl-theme-bw .outside-in-container .outside-in-TOC a:hover,
+.fl-theme-bw .outside-in-container .outside-in-idi-Link:hover,
+.fl-theme-bw .outside-in-container .outside-in-Ontario-Government-Link:hover {
     background-color: #000 !important;
     color: #fff !important;
     outline: none;
@@ -483,7 +514,9 @@ body {
 }
 
 .fl-theme-wb .outside-in-container .outside-in-headerLinks a:hover,
+.fl-theme-wb .outside-in-container .outside-in-iconRow a:hover,
 .fl-theme-wb .outside-in-container .outside-in-partnersRow a:hover,
+.fl-theme-wb .outside-in-container .outside-in-aboutPartnersRow a:hover,
 .fl-theme-wb .outside-in-container .outside-in-emailLink:hover,
 .fl-theme-wb .outside-in-container .outside-in-footerLogo a:hover:before,
 .fl-theme-wb .outside-in-container .outside-in-footerLogo a:hover,
@@ -495,7 +528,9 @@ body {
 .fl-theme-wb .outside-in-container .outside-in-infoRow1 h3:before,
 .fl-theme-wb .outside-in-container .outside-in-infoRow2 h3:before,
 .fl-theme-wb .outside-in-container .outside-in-aboutPartnersRow h3:before,
-.fl-theme-wb .outside-in-container .outside-in-TOC a:hover {
+.fl-theme-wb .outside-in-container .outside-in-TOC a:hover,
+.fl-theme-wb .outside-in-container .outside-in-idi-Link:hover,
+.fl-theme-wb .outside-in-container .outside-in-Ontario-Government-Link:hover {
     background-color: #fff !important;
     color: #000 !important;
     outline: none;
@@ -508,7 +543,9 @@ body {
 
 
 .fl-theme-yb .outside-in-container .outside-in-headerLinks a:hover,
+.fl-theme-yb .outside-in-container .outside-in-iconRow a:hover,
 .fl-theme-yb .outside-in-container .outside-in-partnersRow a:hover,
+.fl-theme-yb .outside-in-container .outside-in-aboutPartnersRow a:hover,
 .fl-theme-yb .outside-in-container .outside-in-emailLink:hover,
 .fl-theme-yb .outside-in-container .outside-in-footerLogo a:hover:before,
 .fl-theme-yb .outside-in-container .outside-in-footerLogo a:hover,
@@ -520,7 +557,9 @@ body {
 .fl-theme-yb .outside-in-container .outside-in-infoRow1 h3:before,
 .fl-theme-yb .outside-in-container .outside-in-infoRow2 h3:before,
 .fl-theme-yb .outside-in-container .outside-in-aboutPartnersRow h3:before,
-.fl-theme-yb .outside-in-container .outside-in-TOC a:hover  {
+.fl-theme-yb .outside-in-container .outside-in-TOC a:hover,
+.fl-theme-yb .outside-in-container .outside-in-idi-Link:hover,
+.fl-theme-yb .outside-in-container .outside-in-Ontario-Government-Link:hover {
     background-color: #ffff00 !important;
     color: #000 !important;
     outline: none;
@@ -533,7 +572,9 @@ body {
 
 
 .fl-theme-by .outside-in-container .outside-in-headerLinks a:hover,
+.fl-theme-by .outside-in-container .outside-in-iconRow a:hover,
 .fl-theme-by .outside-in-container .outside-in-partnersRow a:hover,
+.fl-theme-by .outside-in-container .outside-in-aboutPartnersRow a:hover,
 .fl-theme-by .outside-in-container .outside-in-emailLink:hover,
 .fl-theme-by .outside-in-container .outside-in-footerLogo a:hover:before,
 .fl-theme-by .outside-in-container .outside-in-footerLogo a:hover,
@@ -545,7 +586,9 @@ body {
 .fl-theme-by .outside-in-container .outside-in-infoRow1 h3:before,
 .fl-theme-by .outside-in-container .outside-in-infoRow2 h3:before,
 .fl-theme-by .outside-in-container .outside-in-aboutPartnersRow h3:before,
-.fl-theme-by .outside-in-container .outside-in-TOC a:hover {
+.fl-theme-by .outside-in-container .outside-in-TOC a:hover,
+.fl-theme-by .outside-in-container .outside-in-idi-Link:hover,
+.fl-theme-by .outside-in-container .outside-in-Ontario-Government-Link:hover {
     background-color: #000 !important;
     color: #ffff00 !important;
     outline: none;
@@ -557,7 +600,9 @@ body {
 }
 
 .fl-theme-lgdg .outside-in-container .outside-in-headerLinks a:hover,
+.fl-theme-lgdg .outside-in-container .outside-in-iconRow a:hover,
 .fl-theme-lgdg .outside-in-container .outside-in-partnersRow a:hover,
+.fl-theme-lgdg .outside-in-container .outside-in-aboutPartnersRow a:hover,
 .fl-theme-lgdg .outside-in-container .outside-in-emailLink:hover,
 .fl-theme-lgdg .outside-in-container .outside-in-footerLogo a:hover:before,
 .fl-theme-lgdg .outside-in-container .outside-in-footerLogo a:hover,
@@ -569,7 +614,9 @@ body {
 .fl-theme-lgdg .outside-in-container .outside-in-infoRow1 h3:before,
 .fl-theme-lgdg .outside-in-container .outside-in-infoRow2 h3:before,
 .fl-theme-lgdg .outside-in-container .outside-in-aboutPartnersRow h3:before,
-.fl-theme-lgdg .outside-in-container .outside-in-TOC a:hover {
+.fl-theme-lgdg .outside-in-container .outside-in-TOC a:hover,
+.fl-theme-lgdg .outside-in-container .outside-in-idi-Link:hover,
+.fl-theme-lgdg .outside-in-container .outside-in-Ontario-Government-Link:hover {
     background-color: #bdbdbb !important;
     color: #555 !important;
     outline: none;
