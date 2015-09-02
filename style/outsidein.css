@@ -42,6 +42,13 @@
         url("../fonts/outside-in/outside-in-IDRC-text.eot");
 }
 
+@font-face {
+    font-family: "facebook-twitter";
+    src: url("../fonts/facebook-twitter/facebook-twitter.eot#iefix") format("embedded-opentype"), /*IE8 fix */
+         url("../fonts/facebook-twitter/facebook-twitter.ttf"),
+         url("../fonts/facebook-twitter/facebook-twitter.eot");
+}
+
 body {
     font-size: 12px;
     font-size: 1.2rem;
@@ -72,6 +79,19 @@ body {
     margin-top: -9rem;
 }
 
+.outside-in-container .outside-in-facebook-link:before {
+    font-size: 1.7rem;
+    font-family: "facebook-twitter";
+    content: "\e610";
+    padding: 0.3rem;
+}
+
+.outside-in-container .outside-in-twitter-link:before {
+    font-size: 1.7rem;
+    font-family: "facebook-twitter";
+    content: "\e611";
+    padding: 0.3rem;
+}
 
 .outside-in-container .outside-in-listRowStyle1:before,
 .outside-in-container .outside-in-listRowStyle2:before {
@@ -242,6 +262,16 @@ body {
     padding-top: 3rem;
     padding-bottom: 2rem;
     color: #4c4c4c;
+}
+
+.outside-in-container .outside-in-facebook-link {
+    display: inline;
+    padding-top: 0.5rem;
+}
+
+.outside-in-container .outside-in-twitter-link {
+    display: inline;
+    padding-top: 0.5rem;
 }
 
 .outside-in-container .outside-in-infoRow1 {
@@ -434,11 +464,22 @@ body {
     font-family: "OpenSans-Semibold";
 }
 
-.outside-in-container a:focus,
-.outside-in-container a:focus:before {
+.outside-in-container a:focus {
     background: #f2e93b;
     color: #4c4c4c;
-    outline: none;
+    outline: solid 0.15rem;
+    border-bottom: none;
+}
+
+.outside-in-container .outside-in-facebook-link a:focus {
+    background: #FFF;
+}
+
+.outside-in-container .outside-in-facebook-link a:focus:before,
+.outside-in-container .outside-in-twitter-link a:focus:before {
+    background: #f2e93b;
+    color: #4c4c4c;
+    outline: solid 0.15rem;
     border-bottom: none;
 }
 
@@ -449,6 +490,8 @@ body {
 .outside-in-container .outside-in-emailLink:hover,
 .outside-in-container .outside-in-footerLogo a:hover:before,
 .outside-in-container .outside-in-footerLogo a:hover,
+.outside-in-container .outside-in-facebook-link:hover:before,
+.outside-in-container .outside-in-twitter-link:hover:before,
 .fl-prefsEditor-buttons button:hover,
 .outside-in-container .outside-in-TOC a:hover {
     color: #4c4c4c;
