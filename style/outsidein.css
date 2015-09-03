@@ -264,13 +264,9 @@ body {
     color: #4c4c4c;
 }
 
+/*focus box sizing*/
+.outside-in-container .outside-in-twitter-link,
 .outside-in-container .outside-in-facebook-link {
-    display: inline;
-    padding-top: 0.5rem;
-}
-
-.outside-in-container .outside-in-twitter-link {
-    display: inline;
     padding-top: 0.5rem;
 }
 
@@ -403,7 +399,6 @@ body {
     margin: 0 0 0.5rem 0;
 }
 
-
 .outside-in-container .outside-in-partnersRow a,
 .outside-in-container .outside-in-aboutPartnersRow a,
 .outside-in-container .outside-in-infoRow1 a {
@@ -471,10 +466,6 @@ body {
     border-bottom: none;
 }
 
-.outside-in-container .outside-in-facebook-link a:focus {
-    background: #FFF;
-}
-
 .outside-in-container .outside-in-facebook-link a:focus:before,
 .outside-in-container .outside-in-twitter-link a:focus:before {
     background: #f2e93b;
@@ -532,6 +523,8 @@ body {
 .fl-theme-bw .outside-in-container .outside-in-iconRow a:hover,
 .fl-theme-bw .outside-in-container .outside-in-partnersRow a:hover,
 .fl-theme-bw .outside-in-container .outside-in-aboutPartnersRow a:hover,
+.fl-theme-bw .outside-in-container .outside-in-facebook-link:hover:before,
+.fl-theme-bw .outside-in-container .outside-in-twitter-link:hover:before,
 .fl-theme-bw .outside-in-container .outside-in-emailLink:hover,
 .fl-theme-bw .outside-in-container .outside-in-footerLogo a:hover:before,
 .fl-theme-bw .outside-in-container .outside-in-footerLogo a:hover,
@@ -560,6 +553,8 @@ body {
 .fl-theme-wb .outside-in-container .outside-in-iconRow a:hover,
 .fl-theme-wb .outside-in-container .outside-in-partnersRow a:hover,
 .fl-theme-wb .outside-in-container .outside-in-aboutPartnersRow a:hover,
+.fl-theme-wb .outside-in-container .outside-in-facebook-link:hover:before,
+.fl-theme-wb .outside-in-container .outside-in-twitter-link:hover:before,
 .fl-theme-wb .outside-in-container .outside-in-emailLink:hover,
 .fl-theme-wb .outside-in-container .outside-in-footerLogo a:hover:before,
 .fl-theme-wb .outside-in-container .outside-in-footerLogo a:hover,
@@ -589,6 +584,8 @@ body {
 .fl-theme-yb .outside-in-container .outside-in-iconRow a:hover,
 .fl-theme-yb .outside-in-container .outside-in-partnersRow a:hover,
 .fl-theme-yb .outside-in-container .outside-in-aboutPartnersRow a:hover,
+.fl-theme-yb .outside-in-container .outside-in-facebook-link:hover:before,
+.fl-theme-yb .outside-in-container .outside-in-twitter-link:hover:before,
 .fl-theme-yb .outside-in-container .outside-in-emailLink:hover,
 .fl-theme-yb .outside-in-container .outside-in-footerLogo a:hover:before,
 .fl-theme-yb .outside-in-container .outside-in-footerLogo a:hover,
@@ -618,6 +615,8 @@ body {
 .fl-theme-by .outside-in-container .outside-in-iconRow a:hover,
 .fl-theme-by .outside-in-container .outside-in-partnersRow a:hover,
 .fl-theme-by .outside-in-container .outside-in-aboutPartnersRow a:hover,
+.fl-theme-by .outside-in-container .outside-in-facebook-link:hover:before,
+.fl-theme-by .outside-in-container .outside-in-twitter-link:hover:before,
 .fl-theme-by .outside-in-container .outside-in-emailLink:hover,
 .fl-theme-by .outside-in-container .outside-in-footerLogo a:hover:before,
 .fl-theme-by .outside-in-container .outside-in-footerLogo a:hover,
@@ -646,6 +645,8 @@ body {
 .fl-theme-lgdg .outside-in-container .outside-in-iconRow a:hover,
 .fl-theme-lgdg .outside-in-container .outside-in-partnersRow a:hover,
 .fl-theme-lgdg .outside-in-container .outside-in-aboutPartnersRow a:hover,
+.fl-theme-lgdg .outside-in-container .outside-in-facebook-link:hover:before,
+.fl-theme-lgdg .outside-in-container .outside-in-twitter-link:hover:before,
 .fl-theme-lgdg .outside-in-container .outside-in-emailLink:hover,
 .fl-theme-lgdg .outside-in-container .outside-in-footerLogo a:hover:before,
 .fl-theme-lgdg .outside-in-container .outside-in-footerLogo a:hover,
