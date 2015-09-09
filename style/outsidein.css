@@ -42,6 +42,13 @@
         url("../fonts/outside-in/outside-in-IDRC-text.eot");
 }
 
+@font-face {
+    font-family: "facebook-twitter";
+    src: url("../fonts/facebook-twitter/facebook-twitter.eot#iefix") format("embedded-opentype"), /*IE8 fix */
+         url("../fonts/facebook-twitter/facebook-twitter.ttf"),
+         url("../fonts/facebook-twitter/facebook-twitter.eot");
+}
+
 body {
     font-size: 12px;
     font-size: 1.2rem;
@@ -72,6 +79,19 @@ body {
     margin-top: -9rem;
 }
 
+.outside-in-container .outside-in-facebook-link:before {
+    font-size: 1.7rem;
+    font-family: "facebook-twitter";
+    content: "\e610";
+    padding: 0.3rem;
+}
+
+.outside-in-container .outside-in-twitter-link:before {
+    font-size: 1.7rem;
+    font-family: "facebook-twitter";
+    content: "\e611";
+    padding: 0.3rem;
+}
 
 .outside-in-container .outside-in-listRowStyle1:before,
 .outside-in-container .outside-in-listRowStyle2:before {
@@ -244,6 +264,12 @@ body {
     color: #4c4c4c;
 }
 
+/*focus box sizing*/
+.outside-in-container .outside-in-twitter-link,
+.outside-in-container .outside-in-facebook-link {
+    padding-top: 0.5rem;
+}
+
 .outside-in-container .outside-in-infoRow1 {
     padding-top: 3rem;
     color: #4c4c4c;
@@ -373,7 +399,6 @@ body {
     margin: 0 0 0.5rem 0;
 }
 
-
 .outside-in-container .outside-in-partnersRow a,
 .outside-in-container .outside-in-aboutPartnersRow a,
 .outside-in-container .outside-in-infoRow1 a {
@@ -434,11 +459,18 @@ body {
     font-family: "OpenSans-Semibold";
 }
 
-.outside-in-container a:focus,
-.outside-in-container a:focus:before {
+.outside-in-container a:focus {
     background: #f2e93b;
     color: #4c4c4c;
-    outline: none;
+    outline: solid 0.15rem;
+    border-bottom: none;
+}
+
+.outside-in-container .outside-in-facebook-link a:focus:before,
+.outside-in-container .outside-in-twitter-link a:focus:before {
+    background: #f2e93b;
+    color: #4c4c4c;
+    outline: solid 0.15rem;
     border-bottom: none;
 }
 
@@ -449,6 +481,8 @@ body {
 .outside-in-container .outside-in-emailLink:hover,
 .outside-in-container .outside-in-footerLogo a:hover:before,
 .outside-in-container .outside-in-footerLogo a:hover,
+.outside-in-container .outside-in-facebook-link:hover:before,
+.outside-in-container .outside-in-twitter-link:hover:before,
 .fl-prefsEditor-buttons button:hover,
 .outside-in-container .outside-in-TOC a:hover {
     color: #4c4c4c;
@@ -489,6 +523,8 @@ body {
 .fl-theme-bw .outside-in-container .outside-in-iconRow a:hover,
 .fl-theme-bw .outside-in-container .outside-in-partnersRow a:hover,
 .fl-theme-bw .outside-in-container .outside-in-aboutPartnersRow a:hover,
+.fl-theme-bw .outside-in-container .outside-in-facebook-link:hover:before,
+.fl-theme-bw .outside-in-container .outside-in-twitter-link:hover:before,
 .fl-theme-bw .outside-in-container .outside-in-emailLink:hover,
 .fl-theme-bw .outside-in-container .outside-in-footerLogo a:hover:before,
 .fl-theme-bw .outside-in-container .outside-in-footerLogo a:hover,
@@ -517,6 +553,8 @@ body {
 .fl-theme-wb .outside-in-container .outside-in-iconRow a:hover,
 .fl-theme-wb .outside-in-container .outside-in-partnersRow a:hover,
 .fl-theme-wb .outside-in-container .outside-in-aboutPartnersRow a:hover,
+.fl-theme-wb .outside-in-container .outside-in-facebook-link:hover:before,
+.fl-theme-wb .outside-in-container .outside-in-twitter-link:hover:before,
 .fl-theme-wb .outside-in-container .outside-in-emailLink:hover,
 .fl-theme-wb .outside-in-container .outside-in-footerLogo a:hover:before,
 .fl-theme-wb .outside-in-container .outside-in-footerLogo a:hover,
@@ -546,6 +584,8 @@ body {
 .fl-theme-yb .outside-in-container .outside-in-iconRow a:hover,
 .fl-theme-yb .outside-in-container .outside-in-partnersRow a:hover,
 .fl-theme-yb .outside-in-container .outside-in-aboutPartnersRow a:hover,
+.fl-theme-yb .outside-in-container .outside-in-facebook-link:hover:before,
+.fl-theme-yb .outside-in-container .outside-in-twitter-link:hover:before,
 .fl-theme-yb .outside-in-container .outside-in-emailLink:hover,
 .fl-theme-yb .outside-in-container .outside-in-footerLogo a:hover:before,
 .fl-theme-yb .outside-in-container .outside-in-footerLogo a:hover,
@@ -575,6 +615,8 @@ body {
 .fl-theme-by .outside-in-container .outside-in-iconRow a:hover,
 .fl-theme-by .outside-in-container .outside-in-partnersRow a:hover,
 .fl-theme-by .outside-in-container .outside-in-aboutPartnersRow a:hover,
+.fl-theme-by .outside-in-container .outside-in-facebook-link:hover:before,
+.fl-theme-by .outside-in-container .outside-in-twitter-link:hover:before,
 .fl-theme-by .outside-in-container .outside-in-emailLink:hover,
 .fl-theme-by .outside-in-container .outside-in-footerLogo a:hover:before,
 .fl-theme-by .outside-in-container .outside-in-footerLogo a:hover,
@@ -603,6 +645,8 @@ body {
 .fl-theme-lgdg .outside-in-container .outside-in-iconRow a:hover,
 .fl-theme-lgdg .outside-in-container .outside-in-partnersRow a:hover,
 .fl-theme-lgdg .outside-in-container .outside-in-aboutPartnersRow a:hover,
+.fl-theme-lgdg .outside-in-container .outside-in-facebook-link:hover:before,
+.fl-theme-lgdg .outside-in-container .outside-in-twitter-link:hover:before,
 .fl-theme-lgdg .outside-in-container .outside-in-emailLink:hover,
 .fl-theme-lgdg .outside-in-container .outside-in-footerLogo a:hover:before,
 .fl-theme-lgdg .outside-in-container .outside-in-footerLogo a:hover,
