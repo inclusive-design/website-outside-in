@@ -1,11 +1,11 @@
-outside-in
-==========
+# outside-in.idrc.ocadu.ca
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/0ed22294-fa82-4aeb-a991-261f640f444d/deploy-status)](https://app.netlify.com/sites/idrc-outside-in/deploys)
 
 The Outside-IN website
 
 
-Build Docker image
-==================
+## Build Docker image
 
 You can serve the website from a [Docker](https://docs.docker.com/get-docker) container.
 
